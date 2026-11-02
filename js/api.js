@@ -1,6 +1,6 @@
 // Тек сайт иесі өзгертеді: осы жобаға арналған ЖАҢА Worker-дің нақты HTTPS URL-і.
 // /api/chat немесе репозиторий жолын қоспаңыз.
-export const AI_API_URL = 'ЖАҢА_CLOUDFLARE_WORKER_URL';
+export const AI_API_URL = 'https://erketai-speaking-ai.ccocokokococo.workers.dev';
 export const configured = AI_API_URL.startsWith('https://');
 const SESSION_KEY='erketai-teacher-session-v2';
 let token='';try{token=sessionStorage.getItem(SESSION_KEY)||'';}catch{}
